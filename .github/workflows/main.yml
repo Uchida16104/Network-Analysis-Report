@@ -276,7 +276,7 @@ jobs:
         # Add file links to HTML
         for file in *.png *.txt *.json; do
             if [ -f "$file" ]; then
-                echo "<p><a href=\"$file\">$file</a></p>" >> index.html
+                echo "<p><a href=\"https://raw.githubusercontent.com/Uchida16104/Network-Analysis-Report/refs/heads/main/$file\">$file</a></p>" >> index.html
             fi
         done
         
