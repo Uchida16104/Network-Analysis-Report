@@ -1,5 +1,7 @@
 # Network Analysis Report
 
+This tool performs network analysis on the specified IP address and displays the results in a chart.
+
 ## GitHub Repository Setup Instructions
 
 ### Prerequisites
