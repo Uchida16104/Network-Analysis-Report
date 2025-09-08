@@ -341,7 +341,7 @@ jobs:
         tar -czf network_analysis_$(date +%Y%m%d_%H%M%S).tar.gz *.png *.txt *.json index.html
     
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: network-analysis-results-${{ github.run_number }}
         path: |
