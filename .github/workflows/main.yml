@@ -126,7 +126,7 @@ jobs:
             dot.node('router', 'Router\\n142.250.198.14', fillcolor='red')
             
             for host in hosts_data:
-                if host['ip'] != '142.250.198.14:
+                if host['ip'] != '142.250.198.14':
                     color = 'lightgreen' if host['os'] == 'Linux' else 'lightblue' if host['os'] == 'Windows' else 'yellow'
                     label = f"{host['hostname']}\\n{host['ip']}\\nPorts: {', '.join(map(str, host['ports']))}"
                     dot.node(host['ip'], label, fillcolor=color)
