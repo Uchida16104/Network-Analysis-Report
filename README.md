@@ -12,12 +12,12 @@
 
 ```bash
 # Create a new repository
-git init network-analysis
-cd network-analysis
+git init network-analysis-report
+cd network-analysis-report
 
 # Place workflow files
 mkdir -p .github/workflows
-# Place network-analysis.yml in .github/workflows/
+# Place main.yml in .github/workflows/
 
 # Create README
 cat > README.md << ‘EOF’
