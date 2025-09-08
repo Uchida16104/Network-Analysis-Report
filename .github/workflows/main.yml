@@ -91,7 +91,6 @@ jobs:
             import numpy as np
         
         def generate_mock_hosts():
-            """シミュレーション用のホスト情報を生成"""
             base_ips = ['192.168.1.1', '192.168.1.10', '192.168.1.15', '192.168.1.20', '192.168.1.25']
             hosts = {}
             
@@ -103,7 +102,6 @@ jobs:
             return hosts
         
         def simulate_nmap_scan():
-            """nmapスキャンの結果をシミュレート"""
             print("Simulating nmap scan...")
             hosts = generate_mock_hosts()
             
@@ -373,7 +371,7 @@ jobs:
       if: github.ref == 'refs/heads/main'
     
     - name: Upload to GitHub Pages
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v4
       if: github.ref == 'refs/heads/main'
       with:
         path: './results'
