@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Analysis Results</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .result { margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        img { max-width: 100%; height: auto; margin: 10px 0; }
+        .timestamp { color: #666; font-size: 0.9em; }
+        .file-list { background: #f5f5f5; padding: 15px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Network Analysis Results</h1>
+        <p class="timestamp">Last updated: $(date)</p>
+        
+        <div class="result">
+            <h2>Generated Files</h2>
+            <div class="file-list">
+<p><a href="network_statistics_20250908_114914.png">network_statistics_20250908_114914.png</a></p>
+<p><a href="network_topology_20250908_114914.png">network_topology_20250908_114914.png</a></p>
+<p><a href="network_analysis_20250908_114914.txt">network_analysis_20250908_114914.txt</a></p>
+<p><a href="network_report_20250908_114914.json">network_report_20250908_114914.json</a></p>
+            </div>
+        </div>
+        
+        <div class="result">
+            <h2>Network Topology</h2>
+<img src="network_topology_20250908_114914.png" alt="Network Topology" />
+        </div>
+        
+        <div class="result">
+            <h2>Network Statistics</h2>
+<img src="network_statistics_20250908_114914.png" alt="Network Statistics" />
+        </div>
+        
+        <div class="result">
+            <h2>Analysis Report</h2>
+            <pre>
+Network Analysis Report - 20250908_114914
+==================================================
+
+Total hosts discovered: 5
+
+Host: 192.168.1.1 (host-1)
+  MAC: 00::6:72:a5:c6:8b:0
+  OS: Unknown
+  Open Ports: 3389
+
+Host: 192.168.1.10 (host-10)
+  MAC: 00::3:20:8d:c5:c3:4
+  OS: Windows
+  Open Ports: 135, 443, 3389
+
+Host: 192.168.1.15 (host-15)
+  MAC: 00::c:9a:03:41:2e:4
+  OS: Linux
+  Open Ports: 445, 80
+
+Host: 192.168.1.20 (host-20)
+  MAC: 00::f:d5:fc:fe:a4:5
+  OS: Linux
+  Open Ports: 443, 80, 22
+
+Host: 192.168.1.25 (host-25)
+  MAC: 00::7:62:46:91:de:7
+  OS: Unknown
+  Open Ports: 8080, 135, 445
+
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
