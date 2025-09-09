@@ -1,0 +1,30 @@
+Network Analysis Report - 20250908_120000
+==================================================
+
+Total hosts discovered: 5
+
+Host: 192.168.1.1 (host-1)
+  MAC: 00::5:27:d6:69:99:7
+  OS: Windows
+  Open Ports: 3389, 443, 445
+
+Host: 192.168.1.10 (host-10)
+  MAC: 00::c:94:2a:a3:d7:f
+  OS: Linux
+  Open Ports: 8080, 443
+
+Host: 192.168.1.15 (host-15)
+  MAC: 00::0:e7:7d:1e:0e:8
+  OS: Linux
+  Open Ports: 3389, 445, 22
+
+Host: 192.168.1.20 (host-20)
+  MAC: 00::f:09:f0:17:28:e
+  OS: Linux
+  Open Ports: 8080
+
+Host: 192.168.1.25 (host-25)
+  MAC: 00::a:cf:89:cc:04:1
+  OS: Linux
+  Open Ports: 80, 8080, 445, 135
+
