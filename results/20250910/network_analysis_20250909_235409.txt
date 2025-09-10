@@ -1,0 +1,40 @@
+Network Analysis Report - 20250909_235409
+==================================================
+
+Total hosts discovered: 7
+
+Host: 142.250.198.14 (host-14)
+  MAC: 00::6:d7:9d:63:c5:1
+  OS: Unknown
+  Open Ports: 8080, 443, 3389, 445
+
+Host: 17.253.144.10 (host-10)
+  MAC: 00::d:52:06:23:05:8
+  OS: Unknown
+  Open Ports: 22, 3389
+
+Host: 157.240.209.35 (host-35)
+  MAC: 00::7:41:dd:de:6a:5
+  OS: Windows
+  Open Ports: 3389, 80, 22, 8080
+
+Host: 54.239.28.85 (host-85)
+  MAC: 00::6:40:0e:24:9f:3
+  OS: Unknown
+  Open Ports: 135, 80, 3389, 443
+
+Host: 13.107.246.46 (host-46)
+  MAC: 00::3:26:18:d2:b8:0
+  OS: Linux
+  Open Ports: 80, 22
+
+Host: 23.7.244.207 (host-207)
+  MAC: 00::a:f0:f5:8c:04:1
+  OS: Linux
+  Open Ports: 22, 445
+
+Host: 20.27.177.113 (host-113)
+  MAC: 00::6:51:2e:56:0c:0
+  OS: Unknown
+  Open Ports: 445, 8080
+
