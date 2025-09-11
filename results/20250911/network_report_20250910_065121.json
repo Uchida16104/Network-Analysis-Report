@@ -1,0 +1,93 @@
+{
+  "timestamp": "20250910_065121",
+  "scan_type": "simulation",
+  "total_hosts": 7,
+  "hosts": [
+    {
+      "ip": "142.250.198.14",
+      "mac": "00::6:25:47:19:bf:c",
+      "ports": [
+        8080,
+        80,
+        22,
+        445
+      ],
+      "os": "Windows",
+      "hostname": "host-14"
+    },
+    {
+      "ip": "17.253.144.10",
+      "mac": "00::b:e8:ed:6a:92:0",
+      "ports": [
+        8080,
+        3389
+      ],
+      "os": "Linux",
+      "hostname": "host-10"
+    },
+    {
+      "ip": "157.240.209.35",
+      "mac": "00::4:c1:28:95:87:0",
+      "ports": [
+        445,
+        135
+      ],
+      "os": "Linux",
+      "hostname": "host-35"
+    },
+    {
+      "ip": "54.239.28.85",
+      "mac": "00::6:02:93:d2:e6:4",
+      "ports": [
+        22,
+        80,
+        135,
+        8080
+      ],
+      "os": "Windows",
+      "hostname": "host-85"
+    },
+    {
+      "ip": "13.107.246.46",
+      "mac": "00::4:36:61:96:42:4",
+      "ports": [
+        22,
+        445,
+        8080,
+        443
+      ],
+      "os": "Linux",
+      "hostname": "host-46"
+    },
+    {
+      "ip": "23.7.244.207",
+      "mac": "00::1:c4:f1:da:8b:5",
+      "ports": [
+        3389
+      ],
+      "os": "Unknown",
+      "hostname": "host-207"
+    },
+    {
+      "ip": "20.27.177.113",
+      "mac": "00::f:9d:58:72:50:f",
+      "ports": [
+        8080,
+        22,
+        443,
+        135
+      ],
+      "os": "Unknown",
+      "hostname": "host-113"
+    }
+  ],
+  "summary": {
+    "os_distribution": {
+      "Windows": 2,
+      "Linux": 3,
+      "Unknown": 2
+    },
+    "common_ports": [],
+    "security_notes": []
+  }
+}
